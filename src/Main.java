@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double hight = 1.83;
         int wt = 65;
-        int bmi = service.calculate(hight, wt); // должно получиться 500
+        int bmi = service.calculate(hight, wt); // получилось 19 
         System.out.println(bmi);
     }
 }
